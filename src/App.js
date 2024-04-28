@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './Componentes/permanentes/Navbar';
+import NavbarVertical from './Componentes/permanentes/NavbarVertical';
 import Inicio from './Componentes/paginas/inicio/Inicio';
 import Aulas from './Componentes/paginas/aulas/Aulas';
 import TipoDeEspacio from './Componentes/paginas/tipo de espacio/TipoDeEspacio';
@@ -14,10 +14,11 @@ import PlanDeEstudio from './Componentes/paginas/plan de estudio/PlanDeEstudio';
 import Footer from './Componentes/permanentes/Footer';
 
 
+
 const App = () => {
     return (
         <Router>
-            <Navbar></Navbar>
+            <NavbarVertical></NavbarVertical>
             <main>
                 <Routes>
                     <Route exact path='/' element={<Inicio></Inicio>} ></Route>
