@@ -1,0 +1,36 @@
+.navbar {
+    background: rgb(196, 196, 196);
+    position: fixed;
+    left: 0; 
+    top: 0; 
+    bottom: 0; 
+    width: 200px; 
+    transition: width 0.3s ease;
+    padding: 36px; 
+    display: flex; 
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+      width: 20%;
+      max-width: 300px;
+      font-size: 10px;
+      align-items: start;
+    }
+}
+@media (max-width: 400px) {
+    .navbar {
+      width: 30%;
+      max-width: 300px;
+      font-size: 8px;
+      align-items: start;
+    }
+}
+
+.navbar :hover{
+    color: rgba(14, 168, 52, 0.726);
+}
+

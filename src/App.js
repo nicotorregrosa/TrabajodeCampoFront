@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavbarVertical from './Componentes/permanentes/NavbarVertical';
+import NavbarVertical from './Componentes/permanentes/NavbarVertical/NavbarVertical';
 import Inicio from './Componentes/paginas/inicio/Inicio';
 import Aulas from './Componentes/paginas/aulas/Aulas';
 import TipoDeEspacio from './Componentes/paginas/tipo de espacio/TipoDeEspacio';
@@ -11,7 +11,7 @@ import Espacios from './Componentes/paginas/espacios/Espacios';
 import Materias from './Componentes/paginas/materias/Materias';
 import Personal from './Componentes/paginas/personal/Personal';
 import PlanDeEstudio from './Componentes/paginas/plan de estudio/PlanDeEstudio';
-import Footer from './Componentes/permanentes/Footer';
+import Footer from './Componentes/permanentes/Footer/Footer';
 
 
 
