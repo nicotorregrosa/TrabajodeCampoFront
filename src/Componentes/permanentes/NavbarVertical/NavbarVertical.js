@@ -9,7 +9,7 @@ const NavbarVertical = () => {
           <Nav.Link href="/">Inicio</Nav.Link>
           <Nav.Link href="/Personal">Personal</Nav.Link>
           <Nav.Link href="/Aulas">Aulas</Nav.Link>
-          <Nav.Link href="/Carrerras">Carreras</Nav.Link>
+          <Nav.Link href="/Carreras">Carreras</Nav.Link>
           <Nav.Link href="/Elementos">Elementos</Nav.Link>
           <Nav.Link href="/Espacios">Espacios</Nav.Link>
           <Nav.Link href="/Materias">Materias</Nav.Link>
